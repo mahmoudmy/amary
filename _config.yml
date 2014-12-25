@@ -55,7 +55,7 @@ JB :
   #   - When setting BASE_PATH it must be a valid url.
   #     This means always setting the protocol (http|https) or prefixing with "/"
   # false بشود برای دامین اصلی
-  BASE_PATH : mahmoudmy.github.io/amary
+  BASE_PATH : http://mahmoudmy.github.io/amary
 
   # By default, the asset_path is automatically defined relative to BASE_PATH plus the enabled theme.
   # ex: [BASE_PATH]/assets/themes/[THEME-NAME]
