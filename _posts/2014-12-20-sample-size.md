@@ -39,11 +39,11 @@ tags: [نمونه,حجم نمونه ,جامعه ,بازه اطمینان]
 
  حجم نمونه‌ی مورد نیاز برای برآورد میانگین جامعه:
 
-![](../assets/images/sample-size/sample_size_1)
+![](..\assets\images\sample-size\sample_size_1)
 
 حجم نمونه‌ی مورد نیاز برای برآورد نسبت جامعه:
 
-![](/assets/images/sample-size/sample_size_2)
+![](\assets\images\sample-size\sample_size_2)
 
 برای مثال، اگر بخواهیم با اطمینان 95%، انحراف استاندارد 0.5 و حاشیه‌ی خطای 5%-/+ حجم نمونه را تعیین کنیم، داریم:
 
@@ -55,7 +55,7 @@ tags: [نمونه,حجم نمونه ,جامعه ,بازه اطمینان]
 
 حجم نمونه لازم برای برآورد میانگین وقتی حجم جامعه (N) مشخص باشد:
 
-![](../assets/images/sample-size/sample_size_4)
+![](assets/images/sample-size/sample_size_4)
 
 حجم نمونه لازم برای برآورد نسبت وقتی حجم جامعه (N) مشخص باشد:
 
