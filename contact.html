@@ -1,13 +1,33 @@
 ---
 layout: page
-tilte: تماس
+tilte: تماس با ما
 group: navigation
+permalink: /contact/
 ---
 
-<form accept-charset="UTF-8" action="https://formkeep.com/f/177442f55124" method="POST">
-  <input type="hidden" name="utf8" value="✓">
-  <input type="email" name="email" placeholder="Your Email">
-<input type="text" name="name" placeholder="Your Name">
-<input type="url" name="url" placeholder="Your Website">
-<button type="submit" class="btn btn-primary">Submit</button>
-</form>
+<div class="container">
+	<div class="row clearfix">
+		<div class="col-md-6 column">
+			<form role="form" action="http://formspree.io/help@amary.ir">
+				<div class="form-group">
+					 <label for="name">نام</label><input type="email" class="form-control" id="name" />
+				</div>
+				<div class="form-group">
+					 <label for="email">ایمیل</label><input type="email" class="form-control" id="email" />
+				</div>
+				<div class="form-group">
+      <label for="textArea" class="col-lg-2 control-label">متن پیام</label>
+      <div class="col-lg-10">
+        <textarea class="form-control" rows="3" id="textArea"></textarea>
+      </div>
+				<div class="form-group">
+					 <label for="file">فایل پیوستی</label><input type="file" id="file" />
+					<p class="help-block">
+						میتوانید فایل دادههای خود را از طریق این فرم ارسال کنید.
+					</p>
+				</div>
+				<button type="submit" class="btn btn-default">ارسال</button>
+			</form>
+		</div>
+	</div>
+</div>
