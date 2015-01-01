@@ -1,71 +1,70 @@
 <div class="row">
-<div class="col-xs-8">
-<div class="page-header">
-<h1>{{ page.title }} {% if page.tagline %}<small>{{page.tagline}}</small>{% endif %}</h1>
-</div>
+    <div class="col-xs-8">
+        <div class="page-header">
+            <h1>{{ page.title }} {% if page.tagline %}<small>{{page.tagline}}</small>{% endif %}</h1>
+        </div>
 
-<div class="row post-full">
-<div class="content">
-{{ content }}
-</div>
+        <!--<div class="row post-full"> -->
+            <div class="content">
+                {{ content }}
+            </div>
+    
+            {% unless page.categories == empty %}
+            <ul class="tag_box inline">
+                <li><i class="glyphicon glyphicon-open"></i></li>
+            {% assign categories_list = page.categories %}
+            {% include JB/categories_list %}
+            </ul>
+            {% endunless %}  
+    
+            {% unless page.tags == empty %}
+            <ul class="tag_box inline">
+            <li><i class="glyphicon glyphicon-tags"></i></li>
+            {% assign tags_list = page.tags %}
+            {% include JB/tags_list %}
+            </ul>
+            {% endunless %}  
+    
+            <hr>
+            <ul class="pagination">
+            {% if page.previous %}
+            <li class="prev"><a href="{{ BASE_PATH }}{{ page.previous.url }}" title="{{ page.previous.title }}">&laquo; قبلی</a></li>
+            {% else %}
+            <li class="prev disabled"><a>&rarr; قبلی</a></li>
+            {% endif %}
+            <li><a href="{{ BASE_PATH }}{{ site.JB.archive_path }}">فهرست مطالب</a></li>
+            {% if page.next %}
+            <li class="next"><a href="{{ BASE_PATH }}{{ page.next.url }}" title="{{ page.next.title }}">بعدی &raquo;</a></li>
+            {% else %}
+            <li class="next disabled"><a>بعدی &larr;</a>
+            {% endif %}
+            </ul>
+        <!--</div> -->
+    </div>
 
-{% unless page.categories == empty %}
-<ul class="tag_box inline">
-<li><i class="glyphicon glyphicon-open"></i></li>
-{% assign categories_list = page.categories %}
-{% include JB/categories_list %}
-</ul>
-{% endunless %}  
+    <div class="col-xs-4">
+        <div class="panel panel-success">
+            <div class="panel-heading">
+                <h3 class="panel-title">مشاوره آماری</h3>
+            </div>
+            <div class="panel-body">
+                <p>در هر مرحله‌ای از پژوهش خود می‌توانید برای بهره‌مندی از مشاوره آماری تخصصی با ما تماس بگیرید.</p>
+                <a href="/contact.html">
+                <button class="btn btn-primary" type="button">درخواست مشاوره آماری</button>
+                </a>
+            </div>
+        </div>
 
-{% unless page.tags == empty %}
-<ul class="tag_box inline">
-<li><i class="glyphicon glyphicon-tags"></i></li>
-{% assign tags_list = page.tags %}
-{% include JB/tags_list %}
-</ul>
-{% endunless %}  
-
-<hr>
-<ul class="pagination">
-{% if page.previous %}
-<li class="prev"><a href="{{ BASE_PATH }}{{ page.previous.url }}" title="{{ page.previous.title }}">&laquo; قبلی</a></li>
-{% else %}
-<li class="prev disabled"><a>&rarr; قبلی</a></li>
-{% endif %}
-<li><a href="{{ BASE_PATH }}{{ site.JB.archive_path }}">فهرست مطالب</a></li>
-{% if page.next %}
-<li class="next"><a href="{{ BASE_PATH }}{{ page.next.url }}" title="{{ page.next.title }}">بعدی &raquo;</a></li>
-{% else %}
-<li class="next disabled"><a>بعدی &larr;</a>
-{% endif %}
-</ul>
+        <div class="panel panel-success">
+            <div class="panel-heading">
+                <h3 class="panel-title">موضوعات:</h3>
+            </div>
+            <div class="panel-body">
+                <ul class="tag_box">
+                {% assign categories_list = site.categories %}
+                {% include JB/categories_list %}
+                </ul>
+            </div>
+        </div>
+    </div>
 </div>
-</div>
-
-<div class="col-xs-4">
-<div class="panel panel-success">
-<div class="panel-heading">
-<h3 class="panel-title">مشاوره آماری</h3>
-</div>
-<div class="panel-body">
-<p>در هر مرحله‌ای از پژوهش خود می‌توانید برای بهره‌مندی از مشاوره آماری تخصصی با ما تماس بگیرید.</p>
-<a href="/contact.html">
-<button class="btn btn-primary" type="button">درخواست مشاوره آماری</button>
-</a>
-</div>
-</div>
-
-<div class="panel panel-success">
-<div class="panel-heading">
-<h3 class="panel-title">موضوعات:</h3>
-</div>
-<div class="panel-body">
-<ul class="tag_box">
-{% assign categories_list = site.categories %}
-{% include JB/categories_list %}
-</ul>
-</div>
-</div>
-</div>
-</div>
-
