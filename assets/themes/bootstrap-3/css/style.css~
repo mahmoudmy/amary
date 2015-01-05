@@ -104,6 +104,18 @@ p{
 .jumbotron p{
 	line-height: 30px;
 }
-.jumbotron{
-	height: 100% !important;
-	}
+.center{
+	text-align: center;
+}
+.latin{
+	direction: ltr;
+}
+.tamas{
+	float: left;
+}
+#email, #phone{
+	direction:ltr;
+}
+#footer{
+	text-align: center;
+}

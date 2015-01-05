@@ -1,14 +1,16 @@
 
-http://amarico.ir/archive.html
-http://amarico.ir/atom.xml
-http://amarico.ir/categories.html
-http://amarico.ir/contact.html
-http://amarico.ir/index.html
-http://amarico.ir/index1.html
-http://amarico.ir/pages.html
-http://amarico.ir/rss.xml
-http://amarico.ir/sitemap.txt
-http://amarico.ir/tags.html
+amary.ir/about/
+amary.ir/archive.html
+amary.ir/articles/
+amary.ir/atom.xml
+amary.ir/categories.html
+amary.ir/contact/
+amary.ir/index.html
+amary.ir/pages.html
+amary.ir/rss.xml
+amary.ir/sitemap.txt
+amary.ir/tags.html
+amary.ir/thanks/
 
-http://amarico.ir/sample-size/
-http://amarico.ir/likert/
+amary.ir/sample-size/
+amary.ir/likert/

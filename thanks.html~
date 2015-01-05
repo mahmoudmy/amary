@@ -1,0 +1,11 @@
+---
+layout: page
+title: پیام شما ارسال شد!
+permalink : /thanks/
+---
+
+<div class="row">
+	<div class="col-md-12">
+		<p>با تشکر! پیام شما با موفقیت ارسال شد...</p>
+	</div>
+</div>
