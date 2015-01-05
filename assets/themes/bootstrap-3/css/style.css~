@@ -119,3 +119,6 @@ p{
 #footer{
 	text-align: center;
 }
+ul, ol{
+	line-height: 30px;
+}
