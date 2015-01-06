@@ -116,7 +116,7 @@ p{
 #email, #phone{
 	direction:ltr;
 }
-#footer{
+#footer p{
 	text-align: center;
 }
 ul, ol{
