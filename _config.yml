@@ -12,7 +12,7 @@ title : مشاوره آماری
 tagline: تحلیل داده، مشاوره آماری پایان نامه
 author :
   name : مشاور آماری
-  email : tamas.amary@gmail.com
+  email : help@amary.ir
   github : username
   twitter : username
   feedburner : feedname
@@ -70,7 +70,7 @@ JB :
   # These paths are to the main pages Jekyll-Bootstrap ships with.
   # Some JB helpers refer to these paths; change them here if needed.
   #
-  archive_path: /archive.html
+  archive_path: /articles/
   categories_path : /categories.html
   tags_path : /tags.html
   atom_path : /atom.xml
